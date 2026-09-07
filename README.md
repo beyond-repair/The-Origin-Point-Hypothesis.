@@ -1,24 +1,68 @@
-# The-Origin-Point-Hypothesis
+# The Origin Point Hypothesis
 
-Core ontological substrate for Coherence Field Theory v3.1.
+[![RESEARCH](https://img.shields.io/badge/classification-RESEARCH-f59e0b?style=for-the-badge)](https://github.com/beyond-repair/ADL-Governance)
+[![Claim](https://img.shields.io/badge/claim_0%E2%80%931_hypothesis-7c3aed?style=for-the-badge)](https://github.com/beyond-repair/ADL-Governance/blob/main/docs/CLAIM_VALIDATION.md)
 
-## Framework Baseline
-- Ware Constant: W ≈ 0.08
-- Unified Screening: λ(ρ, n) = 0.08 · (ρ/ρ₀)^{-0.5} · exp(-0.23·n) · (1 + 0.045·S_{045}(log(ρ)))
-- M₂ Renormalization: M₂(ρ, n) = 0.08 · e^{(n-1)·0.23} · ρ^{0.23}
+Ontological **hypothesis** sketched as a substrate for Coherence Field Theory notes. Not an experimentally confirmed origin of vacuum structure.
 
-## Origin Point Definition
-The Origin Point constitutes the primordial vacuum coherence locus from which all informational gradients emanate. It generates the LDOS asymmetry that sources the Ware Constant coupling and subsequent vacuum backreaction.
+Governance: [beyond-repair/ADL-Governance](https://github.com/beyond-repair/ADL-Governance) · [CLAIM_STATUS.md](CLAIM_STATUS.md)
 
-This substrate eliminates the need for dark matter by enforcing density-dependent screening across all scales, consistent with SPARC galaxy data (α=0.45 scaling).
+## What this repository is
 
-## Key Equations
-\[ \lambda(\rho, n) = 0.08 \cdot \left( \frac{\rho}{\rho_0} \right)^{-0.5} \cdot \exp(-0.23 \cdot n) \cdot \left(1 + 0.045 \cdot S_{045}(\log(\rho))\right) \]
+A small document set:
 
-Vacuum backreaction replaces external mass components. Black hole interiors follow modified stress-energy tensor thawing dynamics.
+- `README.md` — this file
+- `origin-point-core.tex` — short LaTeX sketch
+- `The Origin Point Hypothesis.pdf` — historical PDF blob (not independently verified here)
+- `CLAIM_STATUS.md` — mandatory claim cap
 
-## Linkage to Downstream Modules
-- Feeds directly into `-ware-constant-derivation`
-- Establishes topological invariants for Sierpinski-045 geometry
+No executable model. No SPARC pipeline. No tests of physics.
 
-**Status:** Aligned to CFT-v3.1 axiomatic baseline. Ready for Phase 2 propagation.
+## What this repository is not
+
+- Not a proof that dark matter is unnecessary.
+- Not a SPARC-validated screening law.
+- Not a canonical Ware-constant derivation (see `-ware-constant-derivation` and `ware-constant-phenomenology`).
+- Not CFT v3.3 (see `CFTv3.3-IQG-Unified-Framework`).
+- Not an ACTIVE product.
+
+## Framework numbers (hypothesis only)
+
+These expressions appear in the historical sketch. They are **not** promoted by this sweep.
+
+- Ware scale parameter written as \(W \approx 0.08\).
+- Screening form in the sketch:
+
+  \[
+  \lambda(\rho, n) = 0.08 \cdot \left(\frac{\rho}{\rho_0}\right)^{-0.5} \cdot \exp(-0.23\cdot n) \cdot \left(1 + 0.045\cdot S_{045}(\log(\rho))\right)
+  \]
+
+- An \(M_2\) form in the prior README used \((n-1)\) indexing. ADL-Governance canonical software alignment is
+
+  \[
+  W(n) = 0.08\, e^{0.23(n-3)}
+  \]
+
+  Conflicting index conventions are **non-canonical** until renormalized in the derivation repos.
+
+## Claim status
+
+| Statement in prior README | Cap |
+|---------------------------|-----|
+| Origin Point is the primordial vacuum coherence locus | Level 0–1 idea |
+| Eliminates the need for dark matter | **UNSUPPORTED** |
+| Consistent with SPARC galaxy data (\(\alpha=0.45\)) | **UNSUPPORTED in this repo** (no fit artifacts) |
+| Aligned to CFT-v3.1 axiomatic baseline / Ready for Phase 2 | Narrative only |
+
+Green docs-presence CI does **not** raise claim level.
+
+Sweep-108 (2026-09-07): classified **RESEARCH**; claims capped; no physics validation performed.
+
+## Related
+
+- [CFT-v3.1](https://github.com/beyond-repair/CFT-v3.1)
+- [CFTv3.3-IQG-Unified-Framework](https://github.com/beyond-repair/CFTv3.3-IQG-Unified-Framework)
+- [-ware-constant-derivation](https://github.com/beyond-repair/-ware-constant-derivation)
+- [ware-constant-phenomenology](https://github.com/beyond-repair/ware-constant-phenomenology)
+- [sierpinski-geometry-045](https://github.com/beyond-repair/sierpinski-geometry-045)
+- [coherence-drive](https://github.com/beyond-repair/coherence-drive)
