@@ -12,9 +12,10 @@ Governance: [beyond-repair/ADL-Governance](https://github.com/beyond-repair/ADL-
 A small document set:
 
 - `README.md` — this file
-- `origin-point-core.tex` — short LaTeX sketch
+- `origin-point-core.tex` — short LaTeX sketch (claim-capped)
 - `The Origin Point Hypothesis.pdf` — historical PDF blob (not independently verified here)
 - `CLAIM_STATUS.md` — mandatory claim cap
+- `tests/test_claim_cap.py` — file and cap checks only
 
 No executable model. No SPARC pipeline. No tests of physics.
 
@@ -57,6 +58,7 @@ These expressions appear in the historical sketch. They are **not** promoted by 
 Green docs-presence CI does **not** raise claim level.
 
 Sweep-108 (2026-09-07): classified **RESEARCH**; claims capped; no physics validation performed.
+Sweep-230 (2026-10-05): active TeX no longer states SPARC validation; historical PDF retained; claim-cap test added.
 
 ## Related
 
