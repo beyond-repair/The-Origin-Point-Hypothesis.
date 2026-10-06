@@ -59,6 +59,7 @@ Green docs-presence CI does **not** raise claim level.
 
 Sweep-108 (2026-09-07): classified **RESEARCH**; claims capped; no physics validation performed.
 Sweep-230 (2026-10-05): active TeX no longer states SPARC validation; historical PDF retained; claim-cap test added.
+Sweep-236 (2026-10-06): re-audit. Classification remains RESEARCH. CI now also checks the canonical index token and that the historical PDF blob is still present. No physics elevation.
 
 ## Related
 

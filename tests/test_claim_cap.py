@@ -9,6 +9,7 @@ REQUIRED = (
     "SECURITY.md",
     "origin-point-core.tex",
 )
+PDF_NAME = "The Origin Point Hypothesis.pdf"
 
 
 def test_required_files_exist():
@@ -30,3 +31,9 @@ def test_canonical_index_not_promoted():
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     assert "(n-3)" in readme or "(n \u2212 3)" in readme or "n-3" in readme
     assert "Not a proof" in readme or "Not a SPARC" in readme
+
+
+def test_historical_pdf_retained():
+    pdf = ROOT / PDF_NAME
+    assert pdf.is_file()
+    assert pdf.stat().st_size > 0

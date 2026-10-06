@@ -18,9 +18,12 @@ jobs:
           test -f GOVERNANCE.md
           test -f SECURITY.md
           test -f origin-point-core.tex
+          test -s "The Origin Point Hypothesis.pdf"
           grep -q RESEARCH README.md
           grep -q UNSUPPORTED CLAIM_STATUS.md
           grep -q UNSUPPORTED origin-point-core.tex
+          grep -q 'n-3' README.md
+          grep -q 'Not a SPARC' README.md
           ! grep -q "validated against SPARC" origin-point-core.tex
       - name: claim-cap tests
         run: |
