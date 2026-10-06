@@ -6,3 +6,4 @@ This repository is governed by [beyond-repair/ADL-Governance](https://github.com
 - Claims: CLAIM_VALIDATION.md + CLAIM_STATUS.md in this root.
 - Do not promote to ACTIVE without tests, CI that exercises a defined product, SECURITY.md, and operator approval.
 - Do not archive without operator `gh repo archive` (queued only if later classified ARCHIVED/SUPERSEDED).
+- SECURITY.md records that this tree has no runtime secrets. It does not make the hypothesis a product.

@@ -1,7 +1,7 @@
 # Claim status — The-Origin-Point-Hypothesis.
 
 **Classification:** RESEARCH  
-**Sweep:** 109 (2026-09-07)  
+**Sweep:** 230 (2026-10-05)  
 **Policy:** [ADL-Governance CLAIM_VALIDATION.md](https://github.com/beyond-repair/ADL-Governance/blob/main/docs/CLAIM_VALIDATION.md)
 
 ## Levels in force
@@ -23,4 +23,6 @@ Do not treat this repository as:
 - a validated SPARC fit;
 - a Phase-2 production substrate.
 
-A passing GitHub Actions docs check is file presence only.
+A passing GitHub Actions docs check is file presence plus a claim-cap unittest. It is not physics validation.
+
+Sweep-230 removed the active TeX sentence that said the screening function was validated against SPARC. The historical PDF blob is unchanged and remains unverified.
