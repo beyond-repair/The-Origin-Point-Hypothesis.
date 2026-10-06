@@ -16,6 +16,13 @@ jobs:
           test -f README.md
           test -f CLAIM_STATUS.md
           test -f GOVERNANCE.md
+          test -f SECURITY.md
           test -f origin-point-core.tex
           grep -q RESEARCH README.md
           grep -q UNSUPPORTED CLAIM_STATUS.md
+          grep -q UNSUPPORTED origin-point-core.tex
+          ! grep -q "validated against SPARC" origin-point-core.tex
+      - name: claim-cap tests
+        run: |
+          python -m pip install --quiet pytest
+          python -m pytest -q tests/test_claim_cap.py
